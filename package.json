@@ -11,8 +11,6 @@
     "express-ejs-layouts": "^2.5.1",
     "express-session": "^1.17.3",
     "mongoose": "^6.10.0",
-    "netlify-cli": "^13.0.0",
-    "netlify-lambda": "^2.0.16",
     "passport": "^0.6.0",
     "passport-jwt": "^4.0.1",
     "passport-local": "^1.0.0",
@@ -22,13 +20,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-   "start": "node index.js"
- 
-    },
+    "start": "node index.js"
+  },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "webpack-cli": "^5.0.1"
+   
   }
 }
