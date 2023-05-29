@@ -38,7 +38,7 @@ app.use(
       maxAge: 1000 * 60 * 100,
     },
     store: MongoStore.create({
-      mongoUrl:"mongodb+srv://anuj3795:dS7KfO0LnaOfJzpw@cluster0.ppvd5ia.mongodb.net/?retryWrites=true&w=majority",
+      mongoUrl: "mongodb+srv://anuj55883795:NoUzr5z7wUWDjG6x@cluster0.d4o4st9.mongodb.net/?retryWrites=true&w=majority",
       autoRemove: "disabled",
     }),
     function(err) {
@@ -59,7 +59,7 @@ app.use(customMware.setFlash);
 // use express router
 app.use("/", require("./routes"));
 
-app.use('/.netlify/functions/index',router);
+// app.use('/.netlify/functions/index',router);
 
 app.listen( 3000 || 8000 ,(err) => {
   
