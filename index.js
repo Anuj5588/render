@@ -38,7 +38,7 @@ app.use(
       maxAge: 1000 * 60 * 100,
     },
     store: MongoStore.create({
-      mongoUrl: "mongodb+srv://anuj55883795:NoUzr5z7wUWDjG6x@cluster0.d4o4st9.mongodb.net/?retryWrites=true&w=majority",
+      mongoUrl:"mongodb+srv://ak4826636:H7aMUEzJwPPDOPsy@cluster0.grfhclg.mongodb.net/?retryWrites=true&w=majority",
       autoRemove: "disabled",
     }),
     function(err) {
